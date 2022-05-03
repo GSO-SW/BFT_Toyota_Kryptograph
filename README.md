@@ -1,16 +1,17 @@
-# MyTeam.IsBetter=true (Kryptograph)
+# BFT Toyota (Kryptograph)
 
 ## Teammitglieder
 
 | Team    	| Methode 	|Rolle		|Username	|Branch		|
 | ----------- 	| ----------- 	|-----------		|-----------	|-----------	|
-|**MyTeam.IsBetter=true;**	|-|Projektkoordinator|@davobeats|AuslesenDerTabelle|
-|   		|  |Technische Kooordination|@DavidCXV|main|
-|   		| |Entwickler|@sergeyabi|ZeichenZählen|
-|   		| |Entwickler|@Dennis180|ZeichenAusgeben|
-|   		| |Entwickler|@MoritzM1110|ZeichenEntfernen|
-|   		| |Entwickler|@Tamim-2003|AuslesenChiffre|
-|   		| |Entwickler|@NeoEkusoshisuto|ZeichenErsetzten|
+|**BFT Toyota**	|-|Projektkoordinator|@Hamza123124|Zeichen ersetzen|
+|   		|  |Technische Kooordination|@haqe-selo|main Menü|
+|   		| |Entwickler|@Bjar2211|Zeichen entfernen|
+|   		| |Entwickler|@Mahmoud1306|Zeichen zählen|
+|   		| |Entwickler|@DeanPeyman|Auslesen Chiffre|
+|   		| |Entwickler|@lucaHeiler|Zeichen ausgeben|
+|   		| |Entwickler|@Semih341|Auslesen der Tabelle|
+|   		| |Entwickler|@IsI668|Auslesen der Tabelle|
 
 ## Über das Projekt
 ...
