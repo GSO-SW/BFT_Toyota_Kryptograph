@@ -7,9 +7,18 @@ namespace KryptographBibliothek
         public static void Zeichen()
         {
 
-            string chiffre = "Klroyluk";
+            string chiffre = "sajdaosiHSDHua";
+            Char c;
+            Char[] zeichen;
+            int i = 0;
+
+            chiffre = chiffre.ToLower();
+
+
 
             
+
+
         }
     }
 }
