@@ -11,6 +11,17 @@ namespace KryptographBibliothek
             Console.WriteLine("Chiffre");
             Console.WriteLine(Console.ReadLine());
 
+            string chiffre = "Kly ulbl";
+
+            Dictionary<String, double> tabelle_chiffre = new Dictionary<string, double>();
+
+            tabelle_chiffre.Add("K", 1/7.0);
+            tabelle_chiffre.Add("L", 3 / 7.0);
+            tabelle_chiffre.Add("Y", 1 / 7.0);
+            tabelle_chiffre.Add("U", 1 / 7.0);
+            tabelle_chiffre.Add("B", 1 / 7.0);
+
+
 
 
             Dictionary<String, double> Tabelle = new Dictionary<string, double>();
@@ -47,7 +58,9 @@ namespace KryptographBibliothek
                 Tabelle.Add("Y", 0.0005);
                 Tabelle.Add("Z", 0.0121);
 
-          
+                
+
+
             }
         }
     }
