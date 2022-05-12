@@ -35,9 +35,10 @@ namespace KryptographBibliothek
 
 
 
-                Console.WriteLine("Welches zeichen wollen Sie davon Entfernt haben");
+                Console.WriteLine("Entfernen Sie Ihr zeichen?(Um den Programm zu beenden schreiben Sie ´exit`");
+                Console.WriteLine("Um den Programm zu beenden schreiben Sie ´exit`!");
                 Console.Write("Eingabe:");
-
+                
 
 
 
