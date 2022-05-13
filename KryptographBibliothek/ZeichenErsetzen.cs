@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace KryptographBibliothek
 {
     public class ZeichenErsetzen
-    {
+    {   
         public static void Ersetzen()
         {
             Console.WriteLine("Chiffre");
@@ -59,6 +59,8 @@ namespace KryptographBibliothek
                 Tabelle.Add("Z", 0.0121);
 
                 
+
+                 
 
 
             }
