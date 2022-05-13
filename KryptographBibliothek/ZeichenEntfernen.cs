@@ -20,8 +20,10 @@ namespace KryptographBibliothek
             do
             {
 
-                Console.WriteLine("Eingabe:exit\t->\tZeichen Entfernen beendet");
-                Console.WriteLine("-------------------------------------------------");
+               
+               
+                
+               Console.WriteLine("Welcomme to my World");
 
 
 
