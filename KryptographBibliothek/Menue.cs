@@ -60,9 +60,7 @@ namespace KryptographBibliothek
 
                         if(flag ==true)
                         {
-
-
-
+                            //string chiffre = Auslesen.AuslesenChiffre(pfad);
 
                         }
                         else
