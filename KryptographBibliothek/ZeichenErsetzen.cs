@@ -58,9 +58,29 @@ namespace KryptographBibliothek
                 Tabelle.Add("Y", 0.0005);
                 Tabelle.Add("Z", 0.0121);
 
-                
+      
+                var Tabelle_sorted = from entry in Tabelle orderby entry.Value ascending select entry;
+                foreach (KeyValuePair<string, double> kvp in Tabelle_sorted)
+                {
+                    //textBox3.Text += ("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+                    Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+                }
+                Console.WriteLine("______________________________");
+                var Chiffre_sorted = from entry in tabelle_chiffre orderby entry.Value ascending select entry;
+                foreach (KeyValuePair<string, double> kvp in Tabelle_sorted)
+                {
+                    //textBox3.Text += ("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+                    Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value);
+                }
+                for (int i = 0; i < Chiffre_sorted.Count(); i++)
+                {
+                    string key_chiffre = Chiffre_sorted.ElementAt(tabelle_chiffre.Count - 1 - i).Key;
+                    chiffre = chiffre.Replace(' ', ',');
+                }
 
-                 
+
+
+
 
 
             }
