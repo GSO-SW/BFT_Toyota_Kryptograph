@@ -4,7 +4,7 @@
 
 namespace KryptographBibliothek
 {
-    public class Entfernen
+    public class ZeichenEntfernen
 
 
 
