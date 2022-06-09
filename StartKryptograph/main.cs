@@ -6,7 +6,8 @@ namespace StartKryptograph
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string pfad = @"C:\Users\semih.c14\source\repos\BFT_Toyota_Kryptograph\Deutsch_Wahrscheinlichkeiten.txt";
+            KryptographBibliothek.AuslesenTabelle.getTable(pfad);
         }
     }
 }
