@@ -61,7 +61,7 @@ namespace KryptographBibliothek
                         if(flag ==true)
                         {
                             //string chiffre = Auslesen.AuslesenChiffre(pfad);
-                            ZeichenEntfernen.Zeichen_Entfernen();
+                            ZeichenEntfernen.Zeichen_Entfernen(pfad);
                         }
                         else
                         {
