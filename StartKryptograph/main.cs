@@ -6,7 +6,8 @@ namespace StartKryptograph
     {
         static void Main(string[] args)
         {
-            KryptographBibliothek.AuslesenDerChiffre.Auslesen();
+            string pfad = @"C:\Users\dean.p\source\repos\BFT_Toyota_Kryptograph\Chiffre.txt";
+            KryptographBibliothek.AuslesenDerChiffre.Auslesen(pfad);
         }
     }
 }
